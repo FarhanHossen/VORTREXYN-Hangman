@@ -174,10 +174,6 @@ The marketing website lives in the `web/` directory and is hosted on **Netlify**
 | Publish directory | `dist` |
 | Live URL | https://vortrexynhangman.app |
 
-**Deploying to Netlify:**
-1. Connect the `FarhanHossen/VORTREXYN-Hangman` repo to Netlify
-2. Netlify auto-reads `netlify.toml` — no manual config needed
-3. Add custom domain `vortrexynhangman.app` in Netlify's Domain settings
 
 **Local development:**
 ```bash
@@ -192,3 +188,4 @@ npm run dev
 - App Store: https://apps.apple.com/app/vortrexyn-hangman/id6767557504
 - Website: https://vortrexynhangman.app
 - Privacy Policy: https://vortrexynhangman.app/privacy
+
