@@ -133,14 +133,25 @@ service cloud.firestore {
 
 ---
 
+## Quick Start
+
+```bash
+git clone https://github.com/FarhanHossen/VORTREXYN-Hangman.git
+cd VORTREXYN-Hangman
+npm install        # or pnpm install
+npm run start      # opens Expo Go
+```
+
+---
+
 ## Development
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Start Expo dev server
-pnpm --filter @workspace/mobile run dev
+npm run start
 
 # EAS build (iOS)
 eas build --platform ios --profile production
