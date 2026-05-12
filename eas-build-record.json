@@ -1,0 +1,40 @@
+{
+  "latestBuild": {
+    "buildId": "efd88943-ce62-4998-a55e-fd56770cf215",
+    "status": "NEW",
+    "platform": "IOS",
+    "createdAt": "2026-05-08T23:48:00.000Z",
+    "dashboard": "https://expo.dev/accounts/vortrexyn/projects/mobile/builds/efd88943-ce62-4998-a55e-fd56770cf215",
+    "fixes": [
+      "Replaced catalog: specifiers with real versions: @tanstack/react-query@^5.90.21, react@19.1.0, react-dom@19.1.0, zod@^3.25.76",
+      "Removed @workspace/api-client-react workspace:* dep (not imported anywhere in the app)",
+      "Archive created from artifacts/mobile/ root so package.json is at tar root",
+      "image: latest to use Xcode 26+"
+    ]
+  },
+  "previousBuilds": [
+    {
+      "buildId": "98ec8736-d7f1-4dc4-9616-ce281990f106",
+      "status": "ERRORED",
+      "reason": "catalog: version specifiers not resolvable by yarn — pnpm workspace catalog not available in EAS environment"
+    },
+    {
+      "buildId": "e6ea361c-326f-4608-9499-8311a27fa04f",
+      "status": "ERRORED",
+      "reason": "package.json not found — archive subdirectory path mismatch"
+    },
+    {
+      "buildId": "6448dbe7-080d-4157-8f82-5417222d98a1",
+      "status": "ERRORED",
+      "reason": "Used Xcode 15 — Apple requires Xcode 26+ since April 28, 2026"
+    }
+  ],
+  "profile": "production",
+  "bundleIdentifier": "app.vortrexynhangman",
+  "buildNumber": "3",
+  "resourceClass": "IOS_M_MEDIUM",
+  "credentialsSource": "REMOTE",
+  "distributionCertSerial": "3854920196EFF979500530E397466942",
+  "provisioningProfilePortalId": "8749Z4P5C9",
+  "appleTeam": "253A4YTQ43"
+}
