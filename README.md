@@ -155,4 +155,4 @@ eas submit --platform ios
 
 - App Store: https://apps.apple.com/app/vortrexyn-hangman/id6767557504
 - Website: https://vortrexynhangman.app
-- Privacy Policy: https://vortrexynhangman.app/vortrexyn-web/privacy
+- Privacy Policy: https://vortrexynhangman.app/privacy
