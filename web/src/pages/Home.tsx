@@ -74,7 +74,7 @@ function OrbitalRing({ size, color, duration, reverse }: { size: number; color: 
 
 const FEATURES = [
   { emoji: "🧠", title: "4 Difficulty Levels", desc: "Easy, Medium, Hard, and Extreme — challenge grows with you" },
-  { emoji: "🌌", title: "8 Word Categories", desc: "Animals, Food, Space, Nature, Sports, Vehicles & more — with emoji hints!" },
+  { emoji: "🌌", title: "5 Word Categories", desc: "Animals, Food, Space, Colors & more — with emoji hints!" },
   { emoji: "🏆", title: "Leaderboard", desc: "Compete globally by win streak — climb the cosmic rankings" },
   { emoji: "✨", title: "Animated Cosmic Art", desc: "Animated hangman, neon keyboard, star confetti celebrations" },
   { emoji: "👤", title: "Guest Mode", desc: "Play immediately without signing up — no friction" },
