@@ -106,10 +106,8 @@ artifacts/mobile/
 | New Architecture | Enabled |
 
 
-```
 
 ---
-
 ## Quick Start
 
 ```bash
