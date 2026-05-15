@@ -105,30 +105,7 @@ artifacts/mobile/
 | Orientation | Portrait |
 | New Architecture | Enabled |
 
----
 
-## Firebase Setup
-
-The app uses a Firebase project for authentication and leaderboard storage.
-
-Firestore collections: `users`, `leaderboard`
-
-Required Firestore security rules:
-
-```
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /users/{userId} {
-      allow read: if true;
-      allow write: if request.auth != null && request.auth.uid == userId;
-    }
-    match /leaderboard/{entry} {
-      allow read: if true;
-      allow write: if request.auth != null;
-    }
-  }
-}
 ```
 
 ---
